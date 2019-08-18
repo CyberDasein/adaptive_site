@@ -1,0 +1,127 @@
+@media (min-width: 950px) {
+  .instructors-wrap {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1360px) {
+  .nav-wrapper {
+    width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 92px;
+    margin-bottom: 220px;
+  }
+  .header-wrapper {
+    width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 220px;
+  }
+  .header-title {
+    font-size: 70px;
+  }
+  .header-content {
+    padding-top: 210px;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .main-video {
+    order: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .reviews {
+    order: 0;
+    width: 260px;
+    margin-right: 20px;
+  }
+  .video__title {
+    text-align: left;
+  }
+  .reviews__titlte {
+    text-align: left;
+  }
+  .videos {
+    width: 280px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .review-item {
+    margin-right: 0;
+  }
+  .video-item {
+    margin-right: 0;
+  }
+  .instructors-wrap {
+    flex-direction: row;
+    margin-bottom: 255px;
+  }
+  .container {
+    width: 1050px;
+  }
+  .header1 {
+    font-size: 50px;
+  }
+  .instructor {
+    margin-bottom: 0;
+  }
+  .blog-item {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 190px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog-item_content {
+    width: 455px;
+  }
+  .blog-item__image {
+    margin-bottom: 0;
+  }
+  .blog-item__image:last-child {
+    margin-bottom: 250px;
+  }
+  .blog-item__image:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  .cta-section {
+    margin-bottom: 145px;
+  }
+  .footer-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .footer-copyright__title {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 620px) {
+  .nav {
+    display: block;
+  }
+  .nav-wrapper {
+    padding-top: 50px;
+    justify-content: space-between;
+  }
+  .videos {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .video-item {
+    margin-right: 30px;
+  }
+  .video-itemnth:last-child {
+    margin-right: 0;
+  }
+  .reviews {
+    flex-direction: row;
+  }
+  .review-item {
+    margin-right: 30px;
+  }
+}
